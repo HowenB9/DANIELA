@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Howen ❤️ Daniela</title>
+
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+
+    <link href="https://googleapis.com" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- MUSICA -->
+    <audio id="musica" loop>
+        <source src="Musica/NuestraCancion.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- PORTADA -->
+    <section class="hero">
+
+        <img src="Fotos/Foto05.jpeg" alt="Howen y Daniela" class="hero-image">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>Howen ❤️ Daniela</h1>
+
+            <h2>El día que comenzó nuestro para siempre ❤️</h2>
+
+            <p>Todavía recuerdo la primera vez que te vi en la universidad.</p>
+
+            <p>Llevabas un vestido azul y me quedé completamente hipnotizado.</p>
+
+            <p>Sin saberlo, estaba frente a la persona que cambiaría mi vida para siempre. ❤️</p>
+
+            <button onclick="iniciarHistoria()">
+                ❤️ Entrar a Nuestra Historia ❤️
+            </button>
+
+        </div>
+
+        <div class="flecha">↓</div>
+
+    </section>
+
+    <!-- SECCION 1: HISTORIA (Con fuerza de color obligatoria) -->
+    <section id="historia" style="background: linear-gradient(135deg, #ffe5ec 0%, #ffffff 100%) !important; padding: 60px 20px;">
+
+        <!-- Le quitamos el fondo a la caja interna por si acaso -->
+        <div class="historia-bloque" style="background: transparent !important; background-color: transparent !important;">
+
+            <div class="historia-imagen">
+                <img src="Fotos/Foto27.jpeg" alt="Nosotros">
+            </div>
+
+            <div class="historia-texto">
+
+                <h2>El día que todo comenzó ❤️</h2>
+
+                <p>Todavía recuerdo la primera vez que te vi en la universidad.</p>
+
+                <p>Entre tantas personas, hubo algo en ti que captó toda mi atención.</p>
+
+                <p>Llevabas un vestido azul y me quedé completamente hipnotizado.</p>
+
+                <p>Sin saberlo, ese momento marcaría el inicio de la historia más bonita de mi vida.</p>
+
+            </div>
+
+        </div>
+
+        <div class="boton-seccion">
+            <button onclick="document.getElementById('crecimiento').scrollIntoView({behavior:'smooth', block:'center'})" class="btn-next">
+                Siguiente Capítulo ❤️
+            </button>
+        </div>
+
+    </section>
+
+     <!-- SECCION 2: CRECIMIENTO (Con fuerza de color obligatoria) -->
+    <section id="crecimiento" style="background: linear-gradient(135deg, #ffe5ec 0%, #ffffff 100%) !important; padding: 60px 20px;">
+
+        <!-- Le quitamos el fondo a la caja interna inversa para dejar ver el degradado -->
+        <div class="historia-bloque inverso" style="background: transparent !important; background-color: transparent !important;">
+
+            <div class="historia-texto">
+
+                <h2>Poco a poco te convertiste en mi hogar ❤️</h2>
+
+                <p>Lo que comenzó con simples conversaciones se transformó en algo mucho más grande.</p>
+
+                <p>Descubrí una mujer fuerte, valiente y con un corazón enorme.</p>
+
+                <p>Cada día contigo me hizo admirarte más y entender que eras alguien realmente especial para mí.</p>
+
+            </div>
+
+            <div class="historia-imagen">
+                <img src="Fotos/Foto11.jpeg" alt="Nosotros">
+            </div>
+
+        </div>
+
+        <div class="boton-seccion">
+            <button onclick="document.getElementById('amor').scrollIntoView({behavior:'smooth', block:'center'})" class="btn-next">
+                ❤️ Lo que más amo de ti ❤️
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 3: AMOR -->
+    <section id="amor">
+
+        <div class="amor-container">
+
+            <h2>Lo que más amo de ti ❤️</h2>
+
+            <div class="cards-grid">
+
+                <div class="amor-card">
+                    <h3>✨ La magia de tus ojos</h3>
+                    <p>Hay algo en tu mirada que me calma y me reinicia por completo. Desde el primer día que me viste, supe que no quería estar en ningún otro lugar que no fuera a tu lado.</p>
+                </div>
+
+                <div class="amor-card">
+                    <h3>💫 Tu forma de ver la vida</h3>
+                    <p>Admiro la fuerza con la que caminas y cómo transformas los días difíciles en algo bonito. Tu valentía me inspira a ser una mejor versión de mí mismo cada mañana.</p>
+                </div>
+
+                <div class="amor-card">
+                    <h3>🩹 Cuando fue mi refugio</h3>
+                    <p>Nunca voy a olvidar cuando me rompí la tibia. En ese momento de vulnerabilidad, tu paciencia y tu amor incondicional me demostraron que el amor real cuida y sostiene.</p>
+                </div>
+
+                <div class="amor-card">
+                    <h3>👑 El equipo que formamos</h3>
+                    <p>Me encanta cómo nos complementamos y la forma en que crecemos juntos día con día. No solo eres mi pareja; eres mi confidente, mi apoyo y la mejor compañera de vida que pude haber soñado.</p>
+                </div>
+
+            </div>
+
+            <div class="boton-seccion">
+                <button onclick="document.getElementById('recuerdos').scrollIntoView({behavior:'smooth', block:'center'})" class="btn-next">
+                    📸 Nuestros Recuerdos 📸
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- SECCION 4: NUESTROS RECUERDOS (PÁGINA ORIGINAL) -->
+    <section id="recuerdos">
+        <div class="recuerdos-container">
+            
+            <h2>Nuestros Recuerdos ♡</h2>
+            <p class="recuerdos-subtitulo">Cada momento contigo es una historia que quiero guardar por siempre en mi corazón. ❤️</p>
+
+            <div class="collage-grid">
+                
+                <div class="collage-item foto nota-rotar-izq">
+                    <img src="Fotos/Foto31.jpeg" alt="Momento juntos">
+                </div>
+
+                <div class="collage-item nota nota-rotar-der">
+                    <h3>Nuestro primer foto juntos ❤️</h3>
+                    <p>Aun tenia nervios y se nota mi mano esta temblando.</p>
+                </div>
+
+                <div class="collage-item foto nota-rotar-der">
+                    <img src="Fotos/Foto10.jpeg" alt="Momento juntos">
+                </div>
+
+                <div class="collage-item nota nota-rotar-izq">
+                    <h3>El mejor "Sí" de mi vida ❤️</h3>
+                    <p>Ese día arriesgué mi corazón con una pregunta, y me devolviste una felicidad inmensa. Elegirte como mi novia ha sido, sin duda alguna, la decisión más hermosa y acertada que he tomado.</p>
+                </div>
+
+                <div class="collage-item nota nota-rotar-izq">
+                    <h3> Una promesa para el futuro ❤️</h3>
+                    <p>Ese anillo no es solo un detalle bonito; es mi palabra y mi compromiso de que quiero construir un mañana contigo. Es recordarte que, sin importar lo que venga, elijo caminar de tu mano.</p>
+                </div>
+
+                <div class="collage-item foto nota-rotar-izq">
+                    <img src="Fotos/Foto14.jpeg" alt="Momento juntos">
+                </div>
+
+                <div class="collage-item nota nota-rotar-der">
+                    <h3>Nuestra pequeña familia ❤️</h3>
+                    <p>Una de mis fotos favoritas de la vida. Ver nuestras sonrisas y a nuestro bebe juntos me hace darme cuenta de que no necesito nada más. Ustedes son mi felicidad completa y mi hogar seguro.</p>
+                </div>
+
+                <div class="collage-item foto nota-rotar-der">
+                    <img src="Fotos/Foto25.jpeg" alt="Momento juntos">
+                </div>
+
+            </div>
+
+            <div class="boton-seccion">
+                <button onclick="document.getElementById('mas-historias').scrollIntoView({behavior:'smooth', block:'center'})" class="btn-next">
+                    Continúa Nuestra Historia ❤️
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION 5: MÁS HISTORIAS (ESTRUCTURA EXACTA REPETIDA CORREGIDA) -->
+    <section id="mas-historias">
+        <div class="recuerdos-container">
+            
+            <h2>Más Capítulos a tu lado ✨</h2>
+            <p class="recuerdos-subtitulo">Porque una sola página no alcanza para resumir todo lo bonito que hemos vivido. ❤️</p>
+
+            <div class="collage-grid">
+                
+                <div class="collage-item foto nota-rotar-izq">
+                    <img src="Fotos/Foto06.jpeg" alt="Momento juntos">
+                </div>
+
+                <div class="collage-item nota nota-rotar-der">
+                    <h3>La suerte de tenerte ❤️</h3>
+                    <p>A veces me quedo mirándote y no puedo evitar pensar en la suerte tan inmensa que tengo de caminar de tu mano. Eres la razón de mis sonrisas más honestas y lo que más cuido en mi vida.</p>
+                </div>
+
+                <div class="collage-item foto nota-rotar-der">
+                    <img src="Fotos/Foto15.jpeg" alt="Momento juntos">
+                </div>
+
+                <div class="collage-item nota nota-rotar-izq">
+                    <h3> Tu mejor amigo y tu amor ❤️</h3>
+                    <p> El amor real también se nota en estos momentos sencillos, compartiendo cobijas y cuidándonos el uno al otro. Gracias por hacerme parte de tu mundo y por ser mi compañera favorita de aventuras y de descansos.</p>
+                </div>
+
+                <div class="collage-item nota nota-rotar-izq">
+                    <h3>Mi mejor regalo eres tú ❤️</h3>
+                    <p>Podrán pasar los años, pero el recuerdo de tus abrazos, tus sorpresas y tu sonrisa ese día se quedan grabados en mi corazón para siempre.</p>
+                </div>
+
+                <div class="collage-item foto nota-rotar-izq">
+                    <img src="Fotos/Foto24.jpeg" alt="Momento juntos">
+                </div>
+
+                <div class="collage-item nota nota-rotar-der">
+                    <h3>Nuestra primera Navidad juntos ❤️</h3>
+                    <p>Celebrar esta fecha por primera vez a tu lado le dio un sentido completamente nuevo a las fiestas. Mirar esta foto me llena de ilusión porque sé que es solo el inicio de muchísimas Navidades más que quiero construir y disfrutar contigo.</p>
+                </div>
+
+                <div class="collage-item foto nota-rotar-der">
+                    <img src="Fotos/Foto28.jpeg" alt="Momento juntos">
+                </div>
+
+            </div> <!-- CIERRA EL COLLAGE -->
+
+            <!-- BOTÓN AL FINAL DEL COLLAGE PARA IR AL RELOJ -->
+            <div class="boton-seccion" style="margin-top: 30px; text-align: center;">
+                <button onclick="document.getElementById('tiempo-juntos').scrollIntoView({behavior:'smooth', block:'start'})" class="btn-next">
+                    ❤️ Nuestro Destino ❤️
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION 6: EL RELOJ CON TEXTO COMPLETO OPTIMIZADO -->
+    <section id="tiempo-juntos" style="height: 100vh; display: flex; align-items: center; justify-content: center; background-color: #fff0f3; padding: 20px; box-sizing: border-box; overflow: hidden;">
+        <div class="contador-container" style="max-width: 680px; width: 100%; text-align: center; font-family: 'Segoe UI', sans-serif;">
+            
+            <h2 style="color: #ff4d6d; font-size: 2.8rem; margin: 0 0 2px 0; font-family: 'Sacramento', cursive; font-weight: bold;">Nuestra línea del tiempo...</h2>
+            <h4 style="color: #ff758f; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 15px 0; font-weight: 600;">Cada segundo cuenta</h4>
+            
+            <p style="font-size: 1.05rem; color: #555; line-height: 1.6; margin: 0 0 12px 0; font-style: italic;">
+                "Dicen que el tiempo pasa volando cuando te estás divirtiendo, pero contigo va más allá: cada minuto es un aprendizaje, cada hora es un refugio y cada día es confirmar que eres mi hogar seguro."
+            </p>
+            
+            <p style="font-size: 0.95rem; color: #666; line-height: 1.6; margin: 0 auto 20px auto; max-width: 580px;">
+                Desde aquel inolvidable 12 de julio de 2025, hemos construido un equipo invencible. No importa lo que marque el calendario, mi lugar favorito en el mundo siempre será a tu lado.
+            </p>
+
+            <h3 class="contador-titulo" style="color: #ff4d6d; font-size: 1.2rem; margin: 0 0 20px 0; font-weight: bold; letter-spacing: 1px;">El tiempo exacto de nuestra felicidad:</h3>
+            
+            <!-- EL RELOJ EN VERSIÓN COMPACTA -->
+            <div class="contador-grid" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 25px;">
+                <div class="contador-box" style="border: 2px solid #ff4d6d; border-radius: 12px; padding: 10px; min-width: 75px; background: rgba(255, 240, 243, 0.5); box-shadow: 0 0 10px rgba(255, 77, 109, 0.2); text-align: center;"><span id="c-anios" style="font-size: 1.6rem; font-weight: bold; color: #ff4d6d; display: block;">0</span><p style="font-size: 0.75rem; color: #555; margin: 3px 0 0 0; font-weight: 600;">AÑOS</p></div>
+                <div class="contador-box" style="border: 2px solid #ff4d6d; border-radius: 12px; padding: 10px; min-width: 75px; background: rgba(255, 240, 243, 0.5); box-shadow: 0 0 10px rgba(255, 77, 109, 0.2); text-align: center;"><span id="c-meses" style="font-size: 1.6rem; font-weight: bold; color: #ff4d6d; display: block;">0</span><p style="font-size: 0.75rem; color: #555; margin: 3px 0 0 0; font-weight: 600;">MESES</p></div>
+                <div class="contador-box" style="border: 2px solid #ff4d6d; border-radius: 12px; padding: 10px; min-width: 75px; background: rgba(255, 240, 243, 0.5); box-shadow: 0 0 10px rgba(255, 77, 109, 0.2); text-align: center;"><span id="c-dias" style="font-size: 1.6rem; font-weight: bold; color: #ff4d6d; display: block;">0</span><p style="font-size: 0.75rem; color: #555; margin: 3px 0 0 0; font-weight: 600;">DÍAS</p></div>
+                <div class="contador-box" style="border: 2px solid #ff4d6d; border-radius: 12px; padding: 10px; min-width: 75px; background: rgba(255, 240, 243, 0.5); box-shadow: 0 0 10px rgba(255, 77, 109, 0.2); text-align: center;"><span id="c-horas" style="font-size: 1.6rem; font-weight: bold; color: #ff4d6d; display: block;">0</span><p style="font-size: 0.75rem; color: #555; margin: 3px 0 0 0; font-weight: 600;">HORAS</p></div>
+                <div class="contador-box" style="border: 2px solid #ff4d6d; border-radius: 12px; padding: 10px; min-width: 75px; background: rgba(255, 240, 243, 0.5); box-shadow: 0 0 10px rgba(255, 77, 109, 0.2); text-align: center;"><span id="c-minutos" style="font-size: 1.6rem; font-weight: bold; color: #ff4d6d; display: block;">0</span><p style="font-size: 0.75rem; color: #555; margin: 3px 0 0 0; font-weight: 600;">MINUTOS</p></div>
+                <div class="contador-box" style="border: 2px solid #ff4d6d; border-radius: 12px; padding: 10px; min-width: 75px; background: rgba(255, 240, 243, 0.5); box-shadow: 0 0 10px rgba(255, 77, 109, 0.2); text-align: center;"><span id="c-segundos" style="font-size: 1.6rem; font-weight: bold; color: #ff4d6d; display: block;">0</span><p style="font-size: 0.75rem; color: #555; margin: 3px 0 0 0; font-weight: 600;">SEGUNDOS</p></div>
+            </div>
+
+            <p style="font-size: 1.8rem; color: #ff758f; font-family: 'Sacramento', cursive; margin: 0 0 15px 0;">¿Estás lista para ver lo que sigue?</p>
+
+            <!-- BOTÓN MODIFICADO PARA BAJAR A LA CARTA EN EL MISMO ARCHIVO -->
+            <div class="boton-seccion" style="margin: 0;">
+                <button onclick="document.getElementById('carta-final').scrollIntoView({behavior:'smooth', block:'start'})" class="btn-next" style="background-color: #ff4d6d; color: white; padding: 12px 30px; font-size: 1rem; border-radius: 25px; border: none; cursor: pointer; font-weight: bold; box-shadow: 0 4px 12px rgba(255,77,109,0.25);">
+                    💌 Abrir Mi Dedicatoria Final 💌
+                </button>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION 7: LA CARTA DIGITAL FINAL CON TU TEXTO PERSONALIZADO -->
+    <section id="carta-final" style="min-height: 100vh; display: flex; align-items: center; justify-content: center; background-color: #ffe5ec; padding: 60px 20px; box-sizing: border-box; position: relative; overflow: hidden; border-top: 2px solid #ffccd5;">
+        
+        <!-- Contenedor de la Carta con Marco Ornamental Premium de CSS Puro (Seguro y Elegante) -->
+        <div style="background-color: white; max-width: 850px; width: 100%; padding: 60px 45px; border-radius: 20px; box-shadow: 0 15px 40px rgba(255, 77, 109, 0.15); display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between; align-items: flex-start; position: relative; box-sizing: border-box; border: 4px solid #ff4d6d; outline: 2px solid #ffccd5; outline-offset: -12px;">
+            
+            <!-- ESQUINAS ORNAMENTALES DETALLADAS (Efecto Marco de Fotos Antiguo) -->
+            <!-- Esquina Superior Izquierda -->
+            <div style="position: absolute; top: 12px; left: 12px; width: 30px; height: 30px; border-top: 4px solid #ff4d6d; border-left: 4px solid #ff4d6d; border-top-left-radius: 12px; user-select: none;"></div>
+            <div style="position: absolute; top: 22px; left: 22px; color: #ff4d6d; font-size: 1.1rem; line-height: 1; user-select: none;">✿</div>
+            
+            <!-- Esquina Superior Derecha -->
+            <div style="position: absolute; top: 12px; right: 12px; width: 30px; height: 30px; border-top: 4px solid #ff4d6d; border-right: 4px solid #ff4d6d; border-top-right-radius: 12px; user-select: none;"></div>
+            <div style="position: absolute; top: 22px; right: 22px; color: #ff4d6d; font-size: 1.1rem; line-height: 1; user-select: none;">✿</div>
+            
+            <!-- Esquina Inferior Izquierda -->
+            <div style="position: absolute; bottom: 12px; left: 12px; width: 30px; height: 30px; border-bottom: 4px solid #ff4d6d; border-left: 4px solid #ff4d6d; border-bottom-left-radius: 12px; user-select: none;"></div>
+            <div style="position: absolute; bottom: 22px; left: 22px; color: #ff4d6d; font-size: 1.1rem; line-height: 1; user-select: none;">✿</div>
+            
+            <!-- Esquina Inferior Derecha -->
+            <div style="position: absolute; bottom: 12px; right: 12px; width: 30px; height: 30px; border-bottom: 4px solid #ff4d6d; border-right: 4px solid #ff4d6d; border-bottom-right-radius: 12px; user-select: none;"></div>
+            <div style="position: absolute; bottom: 22px; right: 22px; color: #ff4d6d; font-size: 1.1rem; line-height: 1; user-select: none;">✿</div>
+            
+            <!-- COLUMNA IZQUIERDA: TU CARTA ESCRITA -->
+            <div style="flex: 1.3; min-width: 320px; font-family: 'Segoe UI', sans-serif; padding: 15px 5px;">
+                
+                <!-- Encabezado Cursivo Grande en tu Rojo Principal -->
+                <h1 style="color: #ff4d6d; font-family: 'Sacramento', cursive; font-size: 3.5rem; margin: 0 0 25px 0; font-weight: bold; text-align: left;">Para Daniela ❤️</h1>
+                
+                <!-- Cuerpo de la Carta que Respeta tus Párrafos Exactos -->
+                <div style="font-size: 1.1rem; color: #444; line-height: 1.8; text-align: justify; white-space: pre-line; margin-bottom: 30px;">
+                    Mi amor,
+
+                    Hay momentos en la vida que parecen pequeños cuando ocurren, pero que con el tiempo terminan cambiándolo todo. Para mí, uno de esos momentos fue el día en que te vi por primera vez.
+
+                    Todavía recuerdo aquel vestido azul y cómo, entre tantas personas, fuiste la única capaz de llamar completamente mi atención. En ese momento no imaginaba todo lo que vendría después, ni que aquella chica tan hermosa terminaría convirtiéndose en la persona más importante de mi vida.
+
+                    Con el tiempo descubrí que no solo me enamoré de tu belleza, sino también de la increíble mujer que eres. Me enamoré de tu forma de ser, de tu mirada, de tu nobleza y de esa fortaleza que te permite seguir adelante incluso cuando las cosas se ponen difíciles. Admiro profundamente la valentía con la que enfrentas cada desafío y la manera en que siempre encuentras una razón para seguir luchando.
+
+                    Gracias por cada sonrisa, por cada abrazo, por cada conversación y por cada recuerdo que hemos construido juntos. Gracias por hacerme sentir amado, comprendido y acompañado. Gracias por ser esa persona a quien puedo llamar amor, princesa y, sobre todo, compañera de vida.
+
+                    Cuando pienso en el futuro, lo que realmente deseo es construir una vida contigo, crear nuestro hogar, cumplir nuestros sueños y seguir compartiendo cada etapa que venga por delante.
+
+                    No sé cuántos capítulos tendrá nuestra historia, pero sí sé algo con total certeza: quiero escribir cada uno de ellos contigo.
+                </div>
+                
+                <!-- Tu Firma de Despedida -->
+                <div style="text-align: right; font-weight: bold; color: #ff4d6d; font-size: 1.2rem; font-family: 'Segoe UI', sans-serif; margin-top: 20px;">
+                    Con todo mi corazón,
+                    <br>
+                    <span style="font-family: 'Sacramento', cursive; font-size: 3rem; font-weight: normal; line-height: 1;">Howen ❤️</span>
+                </div>
+                
+            </div>
+
+            <!-- COLUMNA DERECHA: LA CASERÍA DE FOTOS POLAROIDS ROTADAS -->
+            <div style="flex: 0.9; min-width: 260px; display: flex; flex-direction: column; align-items: center; gap: 25px; margin-top: 35px;">
+                
+                <!-- Foto 20 (Inclinada a la derecha) -->
+                <div style="background: white; padding: 12px 12px 28px 12px; box-shadow: 0 8px 20px rgba(255, 77, 109, 0.15); border: 1px solid #ffccd5; transform: rotate(3deg); width: 210px; box-sizing: border-box;">
+                    <img src="Fotos/Foto20.jpeg" alt="Momento juntos" style="width: 100%; height: 190px; object-fit: cover; display: block;">
+                </div>
+
+                <!-- Foto 12 (Inclinada a la izquierda) -->
+                <div style="background: white; padding: 12px 12px 28px 12px; box-shadow: 0 8px 20px rgba(255, 77, 109, 0.15); border: 1px solid #ffccd5; transform: rotate(-4deg); width: 210px; box-sizing: border-box;">
+                    <img src="Fotos/Foto12.jpeg" alt="Momento juntos" style="width: 100%; height: 190px; object-fit: cover; display: block;">
+                </div>
+
+                <!-- Foto 13 (Inclinada a la derecha) -->
+                <div style="background: white; padding: 12px 12px 28px 12px; box-shadow: 0 8px 20px rgba(255, 77, 109, 0.15); border: 1px solid #ffccd5; transform: rotate(2deg); width: 210px; box-sizing: border-box;">
+                    <img src="Fotos/Foto13.jpeg" alt="Momento juntos" style="width: 100%; height: 190px; object-fit: cover; display: block;">
+                </div>
+
+                <!-- Foto 16 (Inclinada a la izquierda) -->
+                <div style="background: white; padding: 12px 12px 28px 12px; box-shadow: 0 8px 20px rgba(255, 77, 109, 0.15); border: 1px solid #ffccd5; transform: rotate(-3deg); width: 210px; box-sizing: border-box;">
+                    <img src="Fotos/Foto16.jpeg" alt="Momento juntos" style="width: 100%; height: 190px; object-fit: cover; display: block;">
+                </div>
+
+                <!-- Foto 17 (Inclinada a la derecha) -->
+                <div style="background: white; padding: 12px 12px 28px 12px; box-shadow: 0 8px 20px rgba(255, 77, 109, 0.15); border: 1px solid #ffccd5; transform: rotate(4deg); width: 210px; box-sizing: border-box;">
+                    <img src="Fotos/Foto17.jpeg" alt="Momento juntos" style="width: 100%; height: 190px; object-fit: cover; display: block;">
+                </div>
+
+                <!-- Foto 21 (Inclinada a la izquierda) -->
+                <div style="background: white; padding: 12px 12px 28px 12px; box-shadow: 0 8px 20px rgba(255, 77, 109, 0.15); border: 1px solid #ffccd5; transform: rotate(-2deg); width: 210px; box-sizing: border-box;">
+                    <img src="Fotos/Foto21.jpeg" alt="Momento juntos" style="width: 100%; height: 190px; object-fit: cover; display: block;">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- SCRIPT UNIFICADO PARA EL BOTÓN, LA MÚSICA Y EL CONTADOR -->
+    <script>
+        // Tu aniversario: 12 de Julio de 2025
+        const fechaAniversario = new Date('2025-07-12T00:00:00'); 
+
+        function iniciarHistoria() {
+            const musica = document.getElementById('musica');
+            if (musica) {
+                musica.play().catch(error => console.log("Permiso de audio:", error));
+            }
+            
+            const historia = document.getElementById('historia');
+            if (historia) {
+                historia.scrollIntoView({
+                    behavior: 'smooth', 
+                    block: 'start' 
+                });
+            }
+        }
+
+        function actualizarContador() {
+            const ahora = new Date();
+            
+            let anios = ahora.getFullYear() - fechaAniversario.getFullYear();
+            let meses = ahora.getMonth() - fechaAniversario.getMonth();
+            let dias = ahora.getDate() - fechaAniversario.getDate();
+            let horas = ahora.getHours() - fechaAniversario.getHours();
+            let minutos = ahora.getMinutes() - fechaAniversario.getMinutes();
+            let segundos = ahora.getSeconds() - fechaAniversario.getSeconds();
+
+            if (segundos < 0) { segundos += 60; minutos--; }
+            if (minutos < 0) { minutos += 60; horas--; }
+            if (horas < 0) { horas += 24; dias--; }
+            if (dias < 0) {
+                const mesAnterior = new Date(ahora.getFullYear(), ahora.getMonth(), 0);
+                dias += mesAnterior.getDate();
+                meses--;
+            }
+            if (meses < 0) { meses += 12; anios--; }
+
+            if (document.getElementById('c-anios')) document.getElementById('c-anios').innerText = anios;
+            if (document.getElementById('c-meses')) document.getElementById('c-meses').innerText = meses;
+            if (document.getElementById('c-dias')) document.getElementById('c-dias').innerText = dias;
+            if (document.getElementById('c-horas')) document.getElementById('c-horas').innerText = horas;
+            if (document.getElementById('c-minutos')) document.getElementById('c-minutos').innerText = minutos;
+            if (document.getElementById('c-segundos')) document.getElementById('c-segundos').innerText = segundos;
+        }
+
+        actualizarContador();
+        setInterval(actualizarContador, 1000);
+    </script>
+
+</body>
+</html>
