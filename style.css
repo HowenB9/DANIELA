@@ -464,3 +464,51 @@ body{
     opacity: 1;
     transform: translateY(0);
 }
+/* OPTIMIZACIÓN COMPACTA PARA CELULARES */
+@media (max-width: 768px) {
+    /* Hace que la carta y las fotos se pongan una debajo de otra */
+    #carta-final > div {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 30px 20px !important;
+    }
+
+    /* Ajusta el tamaño del texto de la carta en el celular */
+    #carta-final div[style*="flex: 1.3"] {
+        min-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    /* Centra el título y ajusta el tamaño en móviles */
+    #carta-final h1 {
+        font-size: 2.5rem !important;
+        text-align: center !important;
+    }
+
+    /* Alinea el texto de la dedicatoria de forma limpia en pantallas chicas */
+    #carta-final div[style*="white-space: pre-line"] {
+        font-size: 1rem !important;
+        text-align: left !important;
+    }
+
+    /* Organiza las 6 fotos en una cuadrícula de 2 columnas para que no ocupen tanto espacio hacia abajo */
+    #carta-final div[style*="flex-direction: column"] {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 15px !important;
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    /* Ajusta el tamaño de las fotos polaroid en el celular */
+    #carta-final div[style*="width: 210px"] {
+        width: 45% !important;
+        min-width: 130px !important;
+        padding: 8px 8px 18px 8px !important;
+    }
+
+    #carta-final img {
+        height: 135px !important;
+    }
+}
